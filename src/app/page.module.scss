@@ -1,0 +1,25 @@
+@import './styles/mixins.scss';
+@import './styles/variables.scss';
+
+
+.main {
+
+  &__content {
+    color: rgb(177, 144, 72)
+  }
+}
+
+.header {
+  font-size: 30px;
+  padding: 10px 0;
+  text-align: center;
+
+  @include vp-1023 {
+    font-size: 24px
+  }
+
+  @include vp-767 {
+    font-size: 20px;
+    text-align: start;
+  }
+}

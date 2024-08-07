@@ -1,0 +1,76 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+
+.benefits {
+  list-style: decimal;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &__table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    border: 1px solid #767028;
+    padding: 10px;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      width: 1px;
+      height: 100%;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      background-color: #767028;
+    }
+
+    @include vp-767 {
+      grid-template-columns: repeat(1, 1fr);
+
+      &::before {
+        display: none;
+      }
+    }
+  }
+
+  &__benefits {
+    color: rgb(94, 148, 94);
+
+    &-list {
+      border-top: 1px solid #767028;
+      padding-top: 10px;
+
+      @include vp-767 {
+        border-top: none;
+      }
+    }
+  }
+
+  &__flaws {
+    color: rgb(167, 116, 82);
+
+    @include vp-767 {
+      margin-top: 10px;
+    }
+
+    &-list {
+      border-top: 1px solid #767028;
+      padding-top: 10px;
+
+      @include vp-767 {
+        border-top: none;
+      }
+    }
+  }
+}
+
+.flaws-border {
+
+  @include vp-767 {
+    border-top: 1px solid #767028;
+    margin-top: 14px;
+  }
+}
