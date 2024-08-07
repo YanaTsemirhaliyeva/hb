@@ -69,6 +69,11 @@
   &__gallery {
     width: 100%;
     height: 600px;
+    margin-top: 10px;
+
+    @include vp-767 {
+      height: 400px;
+    }
   }
 }
 
