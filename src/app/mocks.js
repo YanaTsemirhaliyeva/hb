@@ -5,7 +5,14 @@ export const RESTAURANTS = [
     benefits: [
       'терраса',
       'беседки',
-      'детская площадка'
+      'детская площадка',
+      'интересное меню'
+    ],
+    images: [
+      'astoria/1.jpg',
+      'astoria/2.jpg',
+      'astoria/3.jpg',
+      'astoria/4.jpg',
     ]
   },
   {
@@ -29,6 +36,12 @@ export const RESTAURANTS = [
     ],
     flaws: [
       'Дорогая аренда беседки (если я правильно понимаю, это голая аренда (400-800rb), никакие доп услуги в стоимость не входят)'
+    ],
+    images: [
+      'robinson/1.jpg',
+      'robinson/2.jpeg',
+      'robinson/3.jpg',
+      'robinson/4.jpg',
     ]
   },
   {
@@ -67,6 +80,12 @@ export const RESTAURANTS = [
       'фонтан с рыбками',
       'кулинарные мастер-классы для детей',
       'живая музыка по выходным на летней сцене'
+    ],
+    images: [
+      'razdolie/1.webp',
+      'razdolie/2.webp',
+      'razdolie/3.webp',
+      'razdolie/4.webp',
     ]
   },
   {
@@ -91,6 +110,13 @@ export const RESTAURANTS = [
       'детские мастер-классы по приготовлению пиццы',
       'небольшая детская площадка',
       'V хочет'
+    ],
+    images: [
+      'kupala/1.jpeg',
+      'kupala/2.jpg',
+      'kupala/3.jpeg',
+      'kupala/4.jpeg',
+      'kupala/5.jpg',
     ]
   },
   {
@@ -103,6 +129,10 @@ export const RESTAURANTS = [
     ],
     flaws: [
       'где-то в д.Раубичи'
+    ],
+    images: [
+      'dubrov/1.jpg',
+      'dubrov/2.jpg',
     ]
   },
   {
@@ -120,7 +150,18 @@ export const RESTAURANTS = [
       'всесезонная горка для тюбинга'
     ],
     flaws: [
-      'где-то в Пуховичский р-н.'
+      'где-то в Пуховичский р-н.',
+      'вроде будет закрыт с 9.08 по 11.08 на спецобслуживание'
+    ],
+    images: [
+      'porto/1.jpg',
+      'porto/2.jpg',
+      'porto/3.jpg',
+      'porto/4.jpg',
+      'porto/5.jpg',
+      'porto/6.jpg',
+      'porto/7.jpg',
+      'porto/8.jpg',
     ]
   },
   {

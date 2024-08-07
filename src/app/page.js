@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from './page.module.scss'
 import container from './styles/container.module.scss'
 import Links from "./components/links/links";
